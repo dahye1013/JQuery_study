@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>mouse</title>
+</head>
+<body>
+
+
+
+<img src="../image/mermaid.gif" width="200" height="200">
+<script type="text/javascript" src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('img').mouseover(function(){
+		$(this).attr('src','../image/ali2.gif')
+	}).mouseout(function(){
+		$(this).attr('src','../image/ali3.gif')		
+	});
+	
+});
+</script>
+</body>
+</html>
